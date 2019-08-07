@@ -69,13 +69,24 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	margin: auto;
 }
-header nav {
-	display: inline-block;
-	margin-top: 35px;
-	text-decoration: none;
+header {
+	margin: 40px 0 20px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+header nav {
+	margin-top: 35px;
+	width: 620px;
+	display: flex;
+	justify-content: space-between;
+}
+
 header nav a {
-	margin: 0 20px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
 }
 header nav a:link {
 		color: gray;
