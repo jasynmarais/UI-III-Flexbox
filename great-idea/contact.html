@@ -7,7 +7,7 @@
   <title>Great Idea! - Contact</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/contact.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -29,25 +29,33 @@
 <a href="index.html"><img class="logo" src="img/logo.png" alt="Great Idea! Company logo."></a>
 
   </header>
-  
-<img class="services-header-img" src="img/services-header.jpg" alt="Our services header image">
 
-
-<section class="service-info">
-    <section class="service-info infotext">
-      <h4>Some Facts About Our Services</h4>
-        <p>Nulla suscipit interdum diam at maximus. Proin vitae tellus rutrum, accumsan nunc sit amet, iaculis tortor. Mauris consectetur feugiat justo quis aliquet. Curabitur cursus et justo eu consequat. Fusce finibus sem neque, sed faucibus nibh pellentesque
-        eleifend. Mauris euismod facilisis iaculis.</p>
-
-        <ul>
-          <li>Awesome thing</li>
-          <li>Amazing thing</li>
-          <li>Cool thing</li>
-          <li>Great thing</li>
-        </ul>
-    </section>
-    <img class="services-info-img" src="img/services-info.png" alt="one of our employees hard at work">
-  </section>
+  <div class="container">  
+    <form id="contact" action="" method="post">
+      <h3>Quick Contact</h3>
+      <h4>Contact us today, and get reply with in 24 hours!</h4>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+   
+    
+  </div>
 
 <footer>
   <p>Copyright Great Idea! 2018</p>
