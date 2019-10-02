@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
-  /* Header */
+/* Header */
 @keyframes example {
 	from {background-color: grey;}
 	to {background-color: white;}
@@ -133,7 +133,7 @@ header nav a:hover {
     max-width: 100%;
 }
 
-  /* cta */
+/* cta */
   .cta {
 	display: flex;
 	justify-content: space-between;
@@ -200,3 +200,20 @@ header nav a:hover {
 	margin-left: 0;
   }
 
+/* Contact */
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+/* Footer */
+footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
