@@ -166,3 +166,37 @@ header nav a:hover {
 	justify-content: flex-end;
 }
 
+/* Main Content */
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+	display: flex;
+	justify-content: space-between;
+  }
+
+  .main-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	margin-top: 37px;
+	display: flex;
+	justify-content: space-between;
+  }
+
+  .main-content .text-content {
+	margin: 10px;
+  }
+
+  .main-content .text-content:first-child {
+	margin-left: 0;
+  }
+
