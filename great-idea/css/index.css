@@ -79,8 +79,7 @@ header {
 	margin: 40px 0 20px;
 	padding: 20px 0;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-between;       
 	background-color: white;
 	animation-name: example;
 	animation-duration: 4s;
@@ -134,7 +133,7 @@ header nav a:hover {
 }
 
 /* cta */
-  .cta {
+.cta {
 	display: flex;
 	justify-content: space-between;
 }
@@ -164,6 +163,7 @@ header nav a:hover {
 .cta img {
 	display: flex;
 	justify-content: flex-end;
+	object-fit: contain;
 }
 
 /* Main Content */
